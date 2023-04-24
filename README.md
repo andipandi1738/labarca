@@ -1,2 +1,2 @@
 # labarca.github.io
-Website for labobaloca
+Website for La Barca Restaurant
