@@ -1,2 +1,2 @@
-# labobaloca.github.io
+# labarca.github.io
 Website for labobaloca
