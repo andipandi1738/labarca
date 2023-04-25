@@ -1,34 +1,86 @@
-<!DOCTTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset= "utf-8">
-    <meta name= "viewport" content= "width= device-width, initial-scale=1">
-    <title> La Barca Restaurant </title>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-      <header>
-        <nav>
-          <ul>
-            <li>HOME</li>
-            <li>MENU</li>
-            <li>ABOUT</li>
-          </ul>
-         </nav>
-        <h1> La Barca </h1>
-        <button>Insert Button</button>
-        <br>
-        <br>
-        <br>
-        <!--Put ion Backgroun Picture-->
-    </header>
-    
-      <footer>
-        <h3> Follow Us! </h3>
-        <ul>
-          <li><img src= "imgSEAS/facebook-logo-circle.png" width="100" height="100"></li>
-          <li><img src= "imgSEAS/580b57fcd9996e24bc43c521.png" width="100" height="100"></li>
-        </ul>
-      </footer>
-  </body>
+    <head>
+        <title>La Barca | Home</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="style.css" />
+        <script type="module" src="main.js"></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+            <h1 class="restaurant-name restaurant-name-large">La Barca Restaurant*</h1>
+        </header>
+        <div class="main-container">
+            <div class="main-map" >
+                <iframe class="main-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.387
+                579494695!2d-118.29388362415911!3d34.03392777316387!2m3!1f0!2f0!3f0!3m2!1i10
+                24!2i768!4f13.1!3m3!1m2!1s0x80c2c7f310a8a1f7%3A0x452674dd988867d0!2sLa%20Barca
+                %20Restaurant!5e0!3m2!1sen!2sus!4v1682386530081!5m2!1sen!2sus" allowfullscreen="" 
+                loading="lazy" width= "400" height= "400"referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class= "table">
+                <div class="main-info">
+                    Contact: (323) 735-6567
+                    <br>
+                    <br>
+                    HOURS
+                </div>               
+                <table class= "table"> 
+                    <tr>
+                    <th>Monday</th>
+                    <th>10:30AM-10:00PM</th>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <th>10:30AM-10:00PM</th>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <th>10:30AM-10:00PM</th>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <th>10:30AM-10:00PM</th>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <th>10:30AM-11:00PM</th>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <th>9:00AM-10:00PM</th>
+                    </tr>
+                    <tr>
+                        <th>Sunday</th>
+                        <th>9:00AM-10:00PM</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="restaurant-name">La Barca Restaurant</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.facebook.com/labarcarestaurant/" target="_blank">
+                            <img src="imgSEAS/facebook-logo.png" width= "50" height= "50">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/labarcarestaurant/?hl=en" target="_blank">
+                            <img src="imgSEAS/insta-logo.png" width= "50" height= "50">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <h3 class="main-disclaimer">*Not an Official Website</h3>
+        </footer>
+    </body>
 </html>
