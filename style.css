@@ -64,8 +64,8 @@ html, body {
 
 .main-info{
     text-align: center;
-    margin-right: 200px;
-    
+    margin-right: 1em;
+    flex-grow: 1;
 }
 .main-map{
     margin-left: 80px;
@@ -92,6 +92,7 @@ margin-left: 40px;
     align-items: center; 
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;    
+    
 }
 
 .about-container {
@@ -158,4 +159,10 @@ margin-left: 40px;
 .main-disclaimer{
     font-family: "Caveat";
     color: white;
+}
+
+.main-button{
+    text-align: center;
+    margin-left: 340px;
+    margin-bottom: 10px;
 }
