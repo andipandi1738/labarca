@@ -1,4 +1,161 @@
-.main-header{
-    background-image: url(https://placehold.co/600x400);
-    background-size:cover; 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Nunito";
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    font-family: "Nunito";
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+    
+    
+}
+.main-nav li {
+    padding: 0 5%;
+    font-family: "Nunito";
+}
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .3);
+    background-image: url("imgSEAS/header3.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.restaurant-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Caveat";
+    font-weight: normal;
+    color: white;
+}
+.restaurant-name-large {
+    font-size: 8em;
+    font-family: "Caveat";
+}
+
+.main-info{
+    text-align: center;
+    margin-right: 200px;
+    
+}
+.main-map{
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: end;
+    border: 2px;
+    }
+
+.table{
+text-align: center;
+margin-left: 40px;
+}
+.content-section {
+    margin: 1em;
+}
+
+.main-container {
+    
+    margin: 0 auto;
+    padding: 0 1.5em;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;    
+}
+
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+      
+}
+
+.section-header {
+    font-family: "Caveat";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.restaurant-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.menu-title{
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+.menu-drinkmenu{
+    text-align: center;  
+    font-family: "Nunito";
+    border-bottom: 1px solid rgba(255, 255, 255, 0)
+}
+.menu-foodmenu{
+    text-align: center;  
+    font-family: "Nunito";
+   
+}
+
+.main-footer {
+    background-color: #a66a3c;
+    color: white;
+    padding: .15em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.main-disclaimer{
+    font-family: "Caveat";
+    color: white;
 }
